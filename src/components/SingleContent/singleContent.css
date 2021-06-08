@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  position: relative;
+  background-color: #333;
+  padding: 5px;
+  margin: 8px 0;
+  border-radius: 10px;
+  transition: all 800ms;
+}
+
+.card:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.poster {
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 8px 0;
+  font-size: 17px;
+  width: 100%;
+}
+
+.subtitles {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 200px;
+  }
+}
