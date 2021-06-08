@@ -5,6 +5,7 @@
   padding: 10px;
 }
 .carouselItem__img {
+  object-fit: contain;
   border-radius: 10px;
   margin-bottom: 5px;
   box-shadow: 0px 0px 5px black;
